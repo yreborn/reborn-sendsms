@@ -1,0 +1,26 @@
+{
+    "name": "reborn/reborn-sendsms",
+    "type": "think",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reborn",
+            "email": "1395518942@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "topthink/think-installer": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "reborn\\sendsms\\":"src"
+        }
+    },
+    "extra": {
+        "think-config": {
+            "sendsms": "src/config.php"
+        }
+    }
+}
